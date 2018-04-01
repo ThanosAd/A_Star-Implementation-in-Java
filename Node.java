@@ -1,4 +1,9 @@
+// Project for MYY602, Artificial Intelligence, CSE, University of Ioannina
+//Thanasis Antamis, Spring 2017
+
+
 import java.util.ArrayList;
+
 public class Node {
 	double F;
 	double G;
