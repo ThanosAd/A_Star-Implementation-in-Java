@@ -24,11 +24,11 @@ public class PathFinder {
 		Maze = aMaze;
 	}
 	
-	public void ManchattanDistanceCalculator(){
+	public void ManhattanDistanceCalculator(){
 		ArrayList<ArrayList<Integer>> BinMaze = Maze.getMaze();
 		for(int i =0;i<Maze.getDimension();i++){
 			for(int j=0;j<Maze.getDimension();j++){
-				double tempHvalue = Math.abs(j-G1x)+Math.abs(i-G1y);
+				double tempHvalue = Math.abs(j-G1x)*0.5 + Math.abs(i-G1y);
 				Coordinates = new ArrayList<Integer>();
 				int x=j;
 				int y=i;
