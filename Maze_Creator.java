@@ -1,3 +1,6 @@
+// Project for MYY602, Artificial Intelligence, CSE, University of Ioannina
+//Thanasis Antamis, Spring 2017
+
 import java.util.Random;
 import java.util.ArrayList;
 
