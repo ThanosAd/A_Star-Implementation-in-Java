@@ -1,6 +1,5 @@
 // Project for MYY602, Artificial Intelligence, CSE, University of Ioannina
-// Spring 2017
-// Code by Thanasis Antamis
+//Thanasis Antamis, Spring 2017
 
 
 import java.util.ArrayList;
